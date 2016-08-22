@@ -37,3 +37,16 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
