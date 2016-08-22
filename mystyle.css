@@ -1,6 +1,4 @@
-.col-sm-6 {
-  margin: 0 0 30px;
-}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
@@ -40,6 +38,11 @@ header p {
   color: red;
   height: 1600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
 }
 
 footer {
