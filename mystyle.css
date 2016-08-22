@@ -17,7 +17,12 @@ header nav {
   justify-content: flex-end;
 }
 
-h2 {
-  color:green;
-  font-family: verdana;
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
 }
