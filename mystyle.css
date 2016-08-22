@@ -25,7 +25,8 @@ header h1 {
 header p {
   padding: 0 20px;
   margin: 0;
-  
+  align-items: center;
+}
 .jumbotron {
   display: flex;
   align-items: center;
@@ -35,4 +36,4 @@ header p {
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
-}
+
