@@ -29,10 +29,10 @@ header p {
 }
 .jumbotron {
   display: flex;
-  align-items: center;
+  align-items: left;
   background-image: url('qbauer82.github.io/City_Landscape_Background.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: red;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
