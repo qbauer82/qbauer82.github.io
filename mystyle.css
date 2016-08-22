@@ -1,7 +1,11 @@
+.col-sm-6 {
+  margin: 0 0 30px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 5em
+  
 }
 header {
   padding: 20px 0;
