@@ -1,5 +1,7 @@
 header {
   color:blue;
+  layout:center;
+  font:garamond;
 }
 body {
   color:red;
