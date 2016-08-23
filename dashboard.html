@@ -6,11 +6,29 @@
 </head>
 </head>
 <body>
-<h1></h1><p>Good Morning</p>
-<p id="time"></p>
+<h1></h1><p>Good Morning Quintin</p>
+Today is <p id="time"></p>
 <script>
 var myDate = new Date();
 document.getElementById("time").innerHTML = myDate.toDateString();
 </script>
+<script>
+ $(document).ready(function() {
+  $.simpleWeather({
+    location: 'Austin, TX',
+    woeid: '',
+    unit: 'f',
+    success: function(weather) {
+      html = '<p>'+weather.temp+'&deg;'+weather.units.temp+'</p>';
+  
+      $("#weather").html(html);
+    },
+    error: function(error) {
+      $("#weather").html('<p>'+error+'</p>');
+    }
+  });
+});
+</script>
+<div id="weather"></div>
 </h1>
 </body>
