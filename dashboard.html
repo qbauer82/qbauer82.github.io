@@ -4,6 +4,7 @@
 <p>Good Morning</p>
 <p id="time"></p>
 <script>
-document.getElementById("time").innerHTML = Date();
+var myDate = new Date();
+document.getElementById("time").innerHTML myDate.toDateString();
 </script>
 </body>
