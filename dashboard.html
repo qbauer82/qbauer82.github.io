@@ -8,9 +8,12 @@
 <body>
 <h1></h1><p>Good Morning Quintin</p>
 Today is <p id="time"></p>
+The hour is <p id="hour"></p>
 <script>
 var myDate = new Date();
+var myHour = myDate.getHours();
 document.getElementById("time").innerHTML = myDate.toDateString();
+document.getElementById("hour").innerHTML = myHour;
 </script>
 </h1>
 </body>
