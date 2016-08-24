@@ -6,7 +6,8 @@
 </head>
 </head>
 <body>
-<h1></h1><p>Good Morning Quintin</p>
+<p id="greeting"></p>
+<p>Quintin</p>  
 Today is <p id="time"></p>
 The hour is <p id="hour"></p>
 <script>
@@ -14,6 +15,12 @@ var myDate = new Date();
 var myHour = myDate.getHours();
 document.getElementById("time").innerHTML = myDate.toDateString();
 document.getElementById("hour").innerHTML = myHour;
+if (myHour < 12) {
+ document.getElementById("greeting").innerHTML = "Good Morning";
+}
+else {
+ document.getElementById("greeting").innerHTML = "Good Afternoon";
+}
 </script>
 </h1>
 </body>
