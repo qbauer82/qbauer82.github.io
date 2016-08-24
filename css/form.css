@@ -49,7 +49,7 @@ input[type="submit"]{
 width:100%;
 padding:10px 45px;
 background-color: white;
-border:none;
+border:solid black;
 color: black;
 font-size:18px;
 font-weight:700;
