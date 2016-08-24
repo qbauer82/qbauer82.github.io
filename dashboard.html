@@ -16,10 +16,13 @@ var myHour = myDate.getHours();
 document.getElementById("time").innerHTML = myDate.toDateString();
 document.getElementById("hour").innerHTML = myHour;
 if (myHour < 12) {
- document.getElementById("greeting").innerHTML = "Good Afternonn";
+ document.getElementById("greeting").innerHTML = "Good Morning";
+}
+else if (myHour > 18) {
+ document.getElementById("greeting").innerHTML = "Good Night";
 }
 else {
- document.getElementById("greeting").innerHTML = "Good Night";
+ document.getElementById("greeting").innerHTML = "Good Afternoon";
 }
 </script>
 </h1>
