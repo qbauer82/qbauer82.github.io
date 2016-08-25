@@ -3,6 +3,7 @@ background-color: black;
 color: white;
 text-align: center;
 border: 3px solid green;
+font-size: 2.5em; /* 40px/16=2.5em */
 }
 
 h1 {
