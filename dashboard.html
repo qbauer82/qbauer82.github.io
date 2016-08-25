@@ -1,20 +1,20 @@
 <head>
 <head>
  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" type="text/css" href="/css/dashboard.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 </head>
 </head>
 <body>
-<p id="greeting"></p>
-<p>Quintin</p>  
+<p id="greeting">Quintin</p>
 Today is <p id="time"></p>
-The hour is <p id="hour"></p>
+And it is currently <p id="currenttime"></p>
 <script>
 var myDate = new Date();
 var myHour = myDate.getHours();
 document.getElementById("time").innerHTML = myDate.toDateString();
 document.getElementById("hour").innerHTML = myHour;
+document.getElementById("currenttime").innerHTML = myDate.toTimeString();
 if (myHour < 12) {
  document.getElementById("greeting").innerHTML = "Good Morning";
 }
@@ -24,6 +24,7 @@ else if (myHour > 18) {
 else {
  document.getElementById("greeting").innerHTML = "Good Afternoon";
 }
+
 </script>
 </h1>
 </body>
