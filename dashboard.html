@@ -6,7 +6,7 @@
 </head>
 </head>
 <body>
-<p id="greeting"></p>
+<p id="greeting"></p> Quintin
 Today is <p id="time"></p>
 And it is currently <p id="currenttime"></p>
 <script>
@@ -14,7 +14,6 @@ var myDate = new Date();
 var myHour = myDate.getHours();
 document.getElementById("time").innerHTML = myDate.toDateString();
 document.getElementById("hour").innerHTML = myHour;
-document.getElementById("currenttime").innerHTML = myDate.toTimeString();
 if (myHour < 12) {
  document.getElementById("greeting").innerHTML = "Good Morning";
 }
