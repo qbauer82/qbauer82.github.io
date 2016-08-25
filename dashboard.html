@@ -13,7 +13,6 @@ And it is currently <p id="currenttime"></p>
 var myDate = new Date();
 var myHour = myDate.getHours();
 document.getElementById("time").innerHTML = myDate.toDateString();
-document.getElementById("hour").innerHTML = myHour;
 if (myHour < 12) {
  document.getElementById("greeting").innerHTML = "Good Morning";
 }
