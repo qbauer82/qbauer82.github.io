@@ -45,6 +45,8 @@ section .row img {
   margin: 0 0 30px;
   width: 100%;
   align-items: center;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
 .btn.btn-primary {
