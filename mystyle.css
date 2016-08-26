@@ -6,6 +6,10 @@ body {
 
 }
 
+.row.extra-bottom-padding{
+   margin-bottom: 20px;
+}
+
 header {
   padding: 20px 0;
 }
